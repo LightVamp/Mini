@@ -1,0 +1,169 @@
+#header{
+    /*text-align: center;*/
+    display:block;
+    width:100%;
+    margin-top:none;
+    position: fixed;
+    top:0px;
+    left:0px;
+    background-color:#eaf0c7;
+    
+}
+
+.headdiv{
+        
+    /*margin-left: 600px;*/
+    display: inline-block;
+    font-size:1.25rem;
+    padding:0px 50px 0px 50px;
+    margin-top: 20px;
+    float: right;
+}
+
+body{
+    
+    background-color: #000000;
+    align-items:center;
+    margin-top:150px;
+
+}
+
+p{
+
+    font-size: 1.2rem;
+    font-family: Helvetica , Arial, sans-serif;
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 5%;
+    font-family: Garamond, serif;
+    color:rgb(18, 10, 14);
+} 
+.index{
+
+    color:#434242;
+    text-align: end;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top:0px;
+    /*padding: 0.1%;
+    margin-left:0.1%; 
+    margin-right:0.1%; */
+}
+
+.index:hover{
+
+    color:rgba(144, 179, 219, 0.541);
+}
+
+/*.home{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    margin-top:0px;
+    padding: 25px;
+    margin-left:10px; 
+    margin-right:10px; 
+}
+
+.upscaler{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    margin-top:0px;
+    padding: 25px;
+    margin-left:10px;
+    margin-right:10px; 
+}
+
+.about{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    margin-top:0px;
+    padding: 25px;
+    margin-left:10px;
+    margin-right:10px;  
+}
+*/
+
+.heading{
+    display: inline-block;
+    
+    position: relative;
+    margin-top: 20px;
+    margin-left:5%;
+    
+    } 
+
+.imgw{
+    display: block;
+    border: 1px solid;
+    margin:0px auto 0px auto;
+    height: 60%;
+    width: 60%;
+}
+.wiut{
+
+    margin:50px auto 20px auto;
+    /*background-color: #69e4f2;*/
+    width: 90%;
+    font-size:2rem;
+    color: #5a5858;
+    text-align: justify;
+}
+.wiu{
+    width: 100%;;
+    margin:0px auto 0px auto;
+    /*background-color: #69e4f2;*/
+    width: 85%;
+    
+}
+
+hr{
+
+    border-top: 5px dotted;
+    color: #434242;
+    border-bottom: none;
+    width: 30%;
+}
+
+.toptext{
+    margin-left: 120px;
+    font-size:2rem;
+    color: #5a5858;
+    text-align: justify;
+    width: 80%;
+}
+
+.topheader{
+
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 50px;
+    color: #000000;
+}
+
+.topdiv{
+    opacity: 1;
+    padding-bottom: 25px;
+
+}
+
+.black{
+
+    margin-left:10%;
+    background-color: white;
+    padding-bottom:150px;
+    width: 80%;
+    margin-bottom:150px;
+}
+
+.img1{
+    display: block;
+   height: auto;
+   width: 90%;
+   margin:0px auto;
+}
