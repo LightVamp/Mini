@@ -27,26 +27,30 @@
             <div class="cont">
 
             <h2 class="Iu">ImageUpscaler</h2>
-            <form action="" method="get">
+            <form action="stats" name="form" enctype="multipart/form-data" method="POST">
 
-                <label class="lab" for="Scale">Upscale Scale: </label>
-                <input type="number" id="scale"><br>
+                <label class="lab" for="scale">Upscale Scale: </label>
+                <input type="number" id="scale" name="scale"><br>
                 <label class="lab" for="model">Upscaler Model </label>
-                <select name="Model" id="model">
-                    <option value="realesrgan-x4plus">realesrgan-x4plus (default)</option>
+                <select name="model" id="model">
+                    
+                    <option value="realesr-animevideov3">realesr-animevideov3 (default) (animation video)</option>
                     <option value="realesrnet-x4plus">realesrnet-x4plus</option>
                     <option value="realesrgan-x4plus-anime">realesrgan-x4plus-anime (optimized for anime images, small model size)</option>
-                    <option value="realesr-animevideov3">realesr-animevideov3 (animation video)</option>
-                </select>
+                    <option value="realesrgan-x4plus">realesrgan-x4plus</option>
+             </select>
             <br>
             <label class="lab" for="image">Select image:</label>
-            <input type="file" id="image" accept="image/*"><br>
-            <input type="button" id="send" value="Send"><br>
+            <input type="file" id="image" name="image" accept="image/*"><br>
+            <input type="submit" id="send" value="Send"><br>
 
 
             </form>
+            
+            <button name="download"><a href="upscale/realesrgan-ncnn-vulkan-20220424-windows/output.png">Download</a></button>
+
         </div>
         </div>
-        <script src="DOM/bundle.js"></script>
-        <script src="DOM/upscaler.js"></script>
+        <script src="index.js"></script>
+        
 </body>
